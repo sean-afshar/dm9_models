@@ -7,7 +7,14 @@ authors = [
     { name = "sean-afshar", email = "seanafshar97@gmail.com" }
 ]
 requires-python = ">=3.12"
-dependencies = []
+dependencies = [
+    "ipykernel>=7.3.0",
+    "jax>=0.11.1",
+    "matplotlib>=3.11.1",
+    "numpy>=2.5.3",
+    "scipy>=1.18.1",
+    "seaborn>=0.13.2",
+]
 
 [project.scripts]
 dm9-models = "dm9_models:main"
